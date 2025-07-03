@@ -93,20 +93,19 @@ Electronics leads with over **$98 billion**.
 
 The Excel dashboard (separate sheet) includes:
 - KPI Cards: Total Products, Total Revenue, Avg. Discount
-- Clustered Column Chart: Reviews per Category
-- Bar Chart: Price Range Distribution
-- Line Chart: Avg. Rating vs Discount
-- Table: Top 5 Products by Rating & Reviews
-- Pie Chart: Product Count by Category
+- Clustered Column Chart: Actual vs Discounted Price per Category
+- Bar Chart: Price Range Distribution, Top 5 Products by Rating and Reviews, Average Discount Percentage by Category, Product Count by Category. 
+- Pie Chart: Product Count by Price Range Bucket 
 
 ---
 
 ## 🧠 Key Insights
 
 - Products with lower ratings tend to have deeper discounts.
-- Electronics dominate both in sales volume and potential revenue.
-- Mid-range priced items are most common.
+- Electronics dominate both in sales volume and potential revenue. 
 - High rating does not always equate to highest review count.
+- Most products are mid-priced and heavily discounted, especially those with low ratings.
+- Some product names are repeated but vary by minor attributes (color, pack, etc.), influencing the average ratings and review counts.
 
 ---
 
