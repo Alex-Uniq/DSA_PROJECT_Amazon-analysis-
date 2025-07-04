@@ -1,30 +1,61 @@
 # DSA_PROJECT_ 📊 Amazon Product Review Analysis
 
-**Tools Used:** Google sheets and WPS (mobile), Pivot Tables, Calculated Columns  
+**Author:** Obiekezie Precious Chinaza  
+**Role:** Data Analyst  
+**Tools Used:** Google Sheets and WPS Office (Mobile)
+**Focus Areas:** Product Reviews • Pricing Strategy • Discount Patterns • Customer Sentiment  
 **Dataset:** Amazon Product Listings and Reviews (1,465 rows, 16 columns)  
-**Submission:** Capstone Project – DSA Data Analysis Course  
 
 ---
 
-## 🔍 Project Overview
+## 📈 Executive Summary
 
-This project involves exploratory data analysis (EDA) on an Amazon product review dataset. The dataset contains product information such as names, categories, prices, discounts, ratings, and review counts. The goal is to extract meaningful insights for business decisions using Excel.
+This project involved the analysis of an Amazon product review dataset comprising **1,462 products** across various categories. Using pivot tables and spreadsheet calculations, the analysis uncovers key business insights in pricing, customer reviews, ratings, and potential revenue.
+
+Notable findings include:
+- Electronics dominate both in volume and revenue potential  
+- Over **50% of products** offer discounts ≥ 50%  
+- Low-rated products receive deeper discounts  
+- Most products fall into the **mid-price range ($501–$5,000)**  
 
 ---
 
-## ✅ Analysis Questions and Answers
+## 🔧 Data Cleaning Summary
 
-### 1. **Average Discount Percentage by Product Category**
+- Removed duplicate or empty product rows  
+- Standardized product categories  
+- Grouped prices into buckets  
+- Created calculated fields:
+  - **Discount %**
+  - **Revenue = Actual Price × Rating Count**
+  - **Rating Groups**
+  - **Rating × Review Score**
+ 
+---
+
+## 📊 Analysis by Business Questions
+
+### 1. Number of Products per Category  
+| Category | Product Count |
+|----------|---------------|
+| Electronics | 526  
+| Computers & Accessories | 451  
+| Home & Kitchen | 447  
+| Office Products | 31  
+| Others | < 3 per category  
+
+---
+
+### 2. Average Discount by Category  
 | Category | Avg. Discount |
 |----------|----------------|
-| Electronics | 50.83% |
-| Computers & Accessories | 53.92% |
-| Home & Kitchen | 40.17% |
-| Office Products | 12.35% |
-| Others... | See dashboard |
+| Home Improvement | 57.5%  
+| Computers & Accessories | 53.9%  
+| Health & Personal Care | 53.0%  
+| Electronics | 50.8%  
+| Office Products | 12.4%  
 
-### 2. **How Many Products Are Listed per Category?**
-Total of 1,462 products distributed across categories like Electronics (526), Home & Kitchen (447), Computers & Accessories (451), (see dashboard) 
+---
 
 ### 3. **Total Number of Reviews per Category**
 Displayed as a **clustered column chart** in the dashboard. Electronics has the highest review count.
@@ -41,14 +72,14 @@ Displayed as a **clustered column chart** in the dashboard. Electronics has the 
 |----------|--------------|------------------|
 | Electronics | $10,127.31 | $5,965.88 |
 | Home & Kitchen | $4,165.79 | $2,331.13 |
-| Others... | ... | ... |
+| Others... | ... | ... | 
 
 ### 6. **Top 5 Products with Highest Review Count**
 - AmazonBasics HDMI Cable (3-Foot) — 3,757,358 rating score  
 - Others listed in dashboard with rating × review counts.
 
 ### 7. **Number of Products with ≥ 50% Discount**
-**749** products.
+**749** products offer ≥ 50% discount 
 
 ### 8. **Distribution of Product Ratings**
 Most products are rated between 3.8 and 4.4. Full breakdown in bar chart (dashboard).
@@ -89,30 +120,39 @@ Electronics leads with over **$98 billion**.
 
 ---
 
-## 📈 Dashboard Summary
+## 🧠 Key Insights
 
-The Excel dashboard (separate sheet) includes:
-- KPI Cards: Total Products, Total Revenue, Avg. Discount
-- Clustered Column Chart: Actual vs Discounted Price per Category
-- Bar Chart: Price Range Distribution, Top 5 Products by Rating and Reviews, Average Discount Percentage by Category, Product Count by Category. 
-- Pie Chart: Product Count by Price Range Bucket 
+- High rating does not always equate to highest review count.
+- 📉 Lower-rated products are more heavily discounted to boost appeal  
+- 💰 Electronics yield the highest potential revenue and sales volume. 
+- 🧾 Most products are priced between $501–$5,000  
+- 📦 Categories like Office Products and Toys have minimal listings
+- Some product names are repeated but vary by minor attributes (color, pack, etc.), influencing the average ratings and review counts.
 
 ---
 
-## 🧠 Key Insights
+## 🧠 Recommendations
 
-- Products with lower ratings tend to have deeper discounts.
-- Electronics dominate both in sales volume and potential revenue. 
-- High rating does not always equate to highest review count.
-- Most products are mid-priced and heavily discounted, especially those with low ratings.
-- Some product names are repeated but vary by minor attributes (color, pack, etc.), influencing the average ratings and review counts.
+1. **Optimize Discounts**  
+   - Review discount strategies for low-rated products. Consider quality improvements instead of high markdowns.
+
+2. **Focus on High-Value Categories**  
+   - Expand Electronics and Computers categories; they offer the best ROI in volume and revenue.
+
+3. **Target Mid-Priced Product Optimization**  
+   - Most products fall in the mid-price range. Improve quality and customer satisfaction in this band.
+
+4. **Enhance Product Review Strategy**  
+   - Encourage reviews for lesser-known products with fewer than 1,000 ratings.
 
 ---
 
 ## 📌 Author Info
 
 **Name:** Obiekezie Precious Chinaza  
-**Email:** alexprecious100@gmail.com  
-**Location:** Kaduna State, Nigeria  
+**Email:** precious.obiekezie100@gmail.com 
+**Location:** Kaduna State, Nigeria. 
+
+> This project reflects the power of data analysis with limited tools, handled entirely on a smartphone platform.
 
 ---
