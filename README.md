@@ -73,6 +73,7 @@ Displayed as a **clustered column chart** in the dashboard. Electronics has the 
 | Electronics | $10,127.31 | $5,965.88 |
 | Home & Kitchen | $4,165.79 | $2,331.13 |
 | Others... | ... | ... | 
+See file attached. 
 
 ### 6. **Top 5 Products with Highest Review Count**
 - AmazonBasics HDMI Cable (3-Foot) — 3,757,358 rating score  
